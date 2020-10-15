@@ -28,7 +28,7 @@ class doublyLinkedList:
         self.__set_next(self.__header, self.__trailer)
         self.__set_prev(self.__trailer, self.__header)
         self.__size = 0
-        self.__deleted = False
+        self.__deleted = False          #TO be used later 
     
     def __Node(self, prev, element, next):
         index = m.allocate()
